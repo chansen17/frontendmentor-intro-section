@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.654148d5.png">
+  
+  <title>Frontend Mentor | Intro section</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+
+</style>
+</head>
+<body class="animate animate__animated animate__fadeIn overflow-x-hidden">
+
+  <div class="w-full flex-col min-h-screen">
+    <nav class="w-full h-fit">
+      <div class="max-w-[1440px] mx-auto p-5 flex items-center justify-between">
+        <div class="flex items-center space-x-12 cursor-pointer">
+            <h2 class="font-[700] text-3xl md:text-3xl lg:text-4xl">snap</h2>
+          <div class="hidden md:flex items-center space-x-8">
+            <div>
+              <a class="text-gray-500 font-normal hover:text-gray-900 duration-200" href="#">Features</a>
+            </div>
+            <div>
+              <a class="text-gray-500 font-normal hover:text-gray-900 duration-200" href="#">Company</a>
+            </div>
+            <div>
+              <a class="text-gray-500 font-normal hover:text-gray-900 duration-200" href="#">Careers</a>
+            </div>
+            <div>
+              <a class="text-gray-500 font-normal hover:text-gray-900 duration-200" href="#">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <button class="bg-none border-none outline-none text-gray-500 hover:text-gray-900 duration-200">Login</button>
+          <button class="border border-gray-500 text-gray-500 py-3 px-8 rounded-xl hover:text-gray-900 hover:border-gray-900 duration-200">Register</button>
+        </div>  
+        <div id="toggle" class="md:hidden text-3xl text-gray-800 z-50 cursor-pointer">
+          <i id="toggleIcon" class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <div id="menu" class="fixed top-0 left-0 h-full w-full md:w-[50vh] -translate-x-[100%] duration-200 bg-gradient-to-r from-white to-white/50 flex flex-col items-start justify-center space-y-6 backdrop-blur-lg pl-12 z-40">
+        <div>
+            <a class="text-6xl text-gray-900 hover:text-indigo-600 duration-200 font-bold" href="#">Home</a>
+        </div>
+        <div>
+            <a class="text-6xl text-gray-900 hover:text-indigo-600 duration-200 font-bold" href="#">Benefits</a>
+        </div>
+        <div>
+            <a class="text-6xl text-gray-900 hover:text-indigo-600 duration-200 font-bold" href="#">Pricing</a>
+        </div>
+        <div>
+            <a class="text-6xl text-gray-900 hover:text-indigo-600 duration-200 font-bold" href="#">Outlook</a>
+        </div>
+    </div>
+    <!-- HEADER -->
+    <main class="h-full w-full flex items-center justify-center pt-12 md:pt-24 sm:px-8">
+      <div class="w-full max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
+        <div class="md:pr-6">
+          <div class="mx-auto text-center md:mx-0 md:text-left space-y-12">
+            <h2 class="max-w-xl font-[700] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-gray-900 pt-12 md:pt-0 animate animate__animated animate__fadeInDown">Make remote work</h2>
+            <p class="max-w-xl text-lg md:text-xl text-gray-600 font-[500] animate animate__animated animate__fadeInLeft">Get your team in sync, no matter your location. <br>
+            Streamline processes, create team rituals, and watch productivity soar.</p>
+            <button class="shadow-xl py-3 px-6 text-lg md:text-xl text-gray-100 bg-gray-900 rounded-xl border hover:bg-transparent hover:text-gray-900 hover:border border-gray-900 duration-200">Learn more</button>
+
+            <div class="flex items-center justify-center md:justify-start flex-wrap space-x-6 pb-6 md:pb-0">
+              <div class="my-1">
+                <img src="/client-databiz.df1834d7.svg" class="hover:brightness-50 duration-200" alt="..">
+              </div>
+              <div class="my-1">
+                <img src="/client-audiophile.1d746a1b.svg" class="hover:brightness-50 duration-200" alt="..">
+              </div>
+              <div class="my-1">
+                <img src="/client-meet.7783cafb.svg" class="hover:brightness-50 duration-200" alt="..">
+              </div>
+              <div class="my-1">
+                <img src="/client-maker.8d3887c6.svg" class="hover:brightness-50 duration-200" alt="..">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class="w-full h-auto sm:max-w-[400px] md:max-w-xl lg:max-w-md mx-auto animate animate__animated animate__fadeInRight" src="/image-hero-desktop.03fcb46b.png" alt="..">
+        </div>
+      </div>
+    </main>
+  </div>
+
+    <script>let toggle = document.getElementById("toggle");
+let toggleIcon = document.getElementById("toggleIcon");
+let menu = document.getElementById("menu");
+let links = document.querySelectorAll(".menu a");
+const toggleMenu = (e)=>{
+    menu.classList.toggle("-translate-x-[100%]");
+    // menu.classList.toggle('rotate-180', 'transform-gpu')
+    toggleIcon.classList.contains("fa-bars-staggered") ? toggleIcon.classList.replace("fa-bars-staggered", "fa-times") : toggleIcon.classList.replace("fa-times", "fa-bars-staggered");
+    toggleIcon.classList.contains("fa-times") ? toggleIcon.classList.add("rotate-90", "duration-200", "transition-all") : toggleIcon.classList.remove("rotate-90", "duration-200", "transition-all");
+};
+toggle.addEventListener("click", toggleMenu);
+
+</script>
+</body>
+</html>
